@@ -19,5 +19,21 @@ services:
       timeout: 10s
       retries: 3
 
+      
+  localmind:
+    build: .
+    container_name: localmind
+    depends_on:
+      - ollama
+    volumes:
+      - localmind_data:/app/data
+    environment:
+      - DB_PATH=/app/data/localmind.db
+      - OLLAMA_URL=http://ollama:11434
+    command: python main.py
+    restart: unless-stopped
+
+
 volumes:
   ollama_models:
+  localmind_data:
