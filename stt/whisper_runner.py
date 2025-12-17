@@ -11,10 +11,8 @@ def transcribe(audio_path: str):
         text=True
     )
 
-
     return {
         "timestamp": datetime.now().isoformat(),
         "text": result.stdout.strip()
     }
 
-print(transcribe("chunk_123.wav"))
