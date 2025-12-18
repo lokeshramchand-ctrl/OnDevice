@@ -111,7 +111,7 @@ No model training on user data.
         ↓
 ┌────────────────────────┐
 │ Context Manager        │
-│ (rolling memory)      │
+│ (rolling memory)       │
 └───────┬────────────────┘
         ↓
 ┌────────────────────────┐
