@@ -222,16 +222,3 @@ It showcases **system design, edge-AI execution, and thoughtful engineering trad
 
 ---
 
-## Final Note
-
-This project is intentionally **focused**.
-
-No over-engineering.
-No unnecessary abstractions.
-No hype.
-
-Just a clear problem, a clear solution, and a production-grade local architecture.
-
-> ❌ More thinking = procrastination
-> ✅ Building = progress
-
