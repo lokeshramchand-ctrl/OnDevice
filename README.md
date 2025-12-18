@@ -16,7 +16,7 @@ The system is designed to work under **strict hardware constraints**, including 
 
 ---
 
-##❗ Problem Statement
+## Problem Statement
 
 Modern teams, students, and engineers lose critical context during:
 
